@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkDrive", "app2test\WorkDrive.csproj", "{7B0B42B3-434F-4C47-8CFE-C7E14F7D863A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B0B42B3-434F-4C47-8CFE-C7E14F7D863A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0B42B3-434F-4C47-8CFE-C7E14F7D863A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0B42B3-434F-4C47-8CFE-C7E14F7D863A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0B42B3-434F-4C47-8CFE-C7E14F7D863A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D36690E-1071-47F2-8751-C4F3906FD7A1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\alber\source\repos\app2test\app2test\bin\Debug\app2test.exe.config
+C:\Users\alber\source\repos\app2test\app2test\bin\Debug\app2test.exe
+C:\Users\alber\source\repos\app2test\app2test\bin\Debug\app2test.pdb
+C:\Users\alber\source\repos\app2test\app2test\bin\Debug\DevioNet.dll
+C:\Users\alber\source\repos\app2test\app2test\bin\Debug\ImDiskNet.dll
+C:\Users\alber\source\repos\app2test\app2test\bin\Debug\DevioNet.pdb
+C:\Users\alber\source\repos\app2test\app2test\bin\Debug\ImDiskNet.pdb
+C:\Users\alber\source\repos\app2test\app2test\obj\Debug\app2test.csprojAssemblyReference.cache
+C:\Users\alber\source\repos\app2test\app2test\obj\Debug\app2test.Form1.resources
+C:\Users\alber\source\repos\app2test\app2test\obj\Debug\app2test.Properties.Resources.resources
+C:\Users\alber\source\repos\app2test\app2test\obj\Debug\app2test.csproj.GenerateResource.cache
+C:\Users\alber\source\repos\app2test\app2test\obj\Debug\app2test.csproj.CopyComplete
+C:\Users\alber\source\repos\app2test\app2test\obj\Debug\app2test.exe
+C:\Users\alber\source\repos\app2test\app2test\obj\Debug\app2test.pdb
+C:\Users\alber\source\repos\app2test\app2test\obj\Debug\app2test.Form2.resources
