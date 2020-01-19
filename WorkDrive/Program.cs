@@ -7,6 +7,8 @@ using System.Windows.Forms;
 using LTR.IO.ImDisk;
 using System.Management;
 using System.Diagnostics;
+using System.Security.Permissions;
+using System.Security.Principal;
 
 namespace app2test
 {
@@ -34,15 +36,12 @@ namespace app2test
             startInfo.Arguments = $"/C FORMAT {driveL}: /Y /FS:NTFS /V:WorkDrive /Q";
             startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.CreateNoWindow = true;
-            startInfo.UseShellExecute = false;
-            startInfo.RedirectStandardOutput = true;
+            startInfo.UseShellExecute = true;
+            startInfo.Verb = "runas";
             proccess.StartInfo = startInfo;
             proccess.Start();
-            while (!proccess.StandardOutput.EndOfStream)
-            {
-                string line = proccess.StandardOutput.ReadLine();
-                // do something with line
-            }
+            proccess.WaitForExit();
+
 
         }
 

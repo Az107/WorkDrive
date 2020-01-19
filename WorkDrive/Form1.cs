@@ -15,6 +15,8 @@ namespace app2test
         public Form1()
         {
             InitializeComponent();
+            button2.Enabled = false;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -23,11 +25,18 @@ namespace app2test
             //((Button)sender).Visible = false;
             Form2 form2 = new Form2();
             form2.Show();
+            button1.Enabled = false;
+            button2.Enabled = true;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Program.Umount();
+            button1.Enabled = true;
+            button2.Enabled = false;
+
+
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
